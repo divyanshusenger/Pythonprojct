@@ -1,0 +1,23 @@
+""" 21. Write a Python program to find numbers between 100 and 400 (both included) where each digit of a number is an even number. 
+The numbers obtained should be printed in a comma-separated sequence.  """
+
+
+
+""" even_number = []
+for number in range(100, 401):
+    if all(int(digit) % 2 == 0 for digit in  str(number)):
+        even_number.append(str(number))
+print(",".join(even_number)) """
+
+"""REVERS ANY NUMBER."""
+""" number = int(input("Enter the number: "))
+reverse_number = int(str(number)[::-1])
+print("reversed_number:", reverse_number) """
+
+
+""" # 2. Accept n number from user and calculate the sum of all number between 1 and n including n
+n = int(input("Enter the Number: "))
+num = 0
+for i in range(1, n+1):
+    num += i
+print(f"The sum of all numbers between 1 and n: {num}") """
